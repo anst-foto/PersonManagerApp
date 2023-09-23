@@ -25,6 +25,11 @@ if (result.HasRows)
         });
     }
 }
+else
+{
+    Console.WriteLine("!!! ERROR !!!");
+    return;
+}
 
 db.Close();
 
